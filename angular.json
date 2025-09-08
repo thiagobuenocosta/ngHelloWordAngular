@@ -13,6 +13,8 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "outputPath": "dist/ngHelloWordAngular",
+            "index": "src/index.html",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
@@ -23,6 +25,10 @@
             ],
             "styles": [
               "src/styles.css"
+            ],
+            "scripts": [],
+            "externalDependencies": [
+              "zone.js"
             ]
           },
           "configurations": {
@@ -81,5 +87,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "27eb3032-b213-463c-96bc-9145d1bc3839"
   }
 }

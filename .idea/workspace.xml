@@ -114,8 +114,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>

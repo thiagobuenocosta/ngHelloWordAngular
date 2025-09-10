@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="feat: add new files in .gitignore" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thiagobuenocosta&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOPrKKbs6nSPrn&quot;,
+        &quot;number&quot;: 3
+      },
+      &quot;lastSeen&quot;: 1757461854002
+    }
+  ]
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+        <option value="develop" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thiagobuenocosta/ngHelloWordAngular.git&quot;,
+    &quot;accountId&quot;: &quot;7fdb9500-6147-46c2-8031-442e043a6543&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="32LbRwVyrr3wbdy6FhWg0nTKI6R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install serve.executor&quot;: &quot;Run&quot;,
+    &quot;npm.ng serve.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.android.studio.ml.bot.mainConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\dev.theago\\WebstormProjects\\ngHelloWordAngular\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dev.theago\WebstormProjects\ngHelloWordAngular\src\app" />
+      <recent name="C:\Users\dev.theago\WebstormProjects\ngHelloWordAngular" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
+        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:4200/" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="" />
+      <created>1757202794962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757202794962</updated>
+      <workItem from="1757202796053" duration="1696000" />
+      <workItem from="1757204530225" duration="362000" />
+      <workItem from="1757204921111" duration="1020000" />
+      <workItem from="1757205964853" duration="205000" />
+      <workItem from="1757206189036" duration="8000" />
+      <workItem from="1757206201469" duration="692000" />
+      <workItem from="1757289216664" duration="33000" />
+      <workItem from="1757289699064" duration="6000" />
+      <workItem from="1757289736017" duration="6000" />
+      <workItem from="1757289758404" duration="6729000" />
+      <workItem from="1757296583865" duration="1986000" />
+      <workItem from="1757461516423" duration="997000" />
+      <workItem from="1757462538586" duration="1500000" />
+      <workItem from="1757544164608" duration="231000" />
+      <workItem from="1757544410281" duration="473000" />
+      <workItem from="1757544930359" duration="50000" />
+    </task>
+    <task id="LOCAL-00001" summary="#UPDATE - commit inicial com os arquivos do projeto">
+      <option name="closed" value="true" />
+      <created>1757206894649</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757206894649</updated>
+    </task>
+    <task id="LOCAL-00002" summary="#navBarTask - removing a trash implentation and crafting a new component appointed the NavBar and add configs under a polyfills.ts">
+      <option name="closed" value="true" />
+      <created>1757294811157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757294811157</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Refactor: Replace old implementation with NavBar component&#10;&#10;- Removes the previous inline implementation.&#10;- Creates a new, reusable NavBar component.&#10;- Adds polyfills.ts to handle zone.js configuration.">
+      <option name="closed" value="true" />
+      <created>1757295041475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757295041475</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: Bump version to 1.0.0">
+      <option name="closed" value="true" />
+      <created>1757462356510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757462356510</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add new files in .gitignore">
+      <option name="closed" value="true" />
+      <created>1757544590075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757544590075</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#UPDATE - commit inicial com os arquivos do projeto" />
+    <MESSAGE value="#navBarTask - removing a trash implentation and crafting a new component appointed the NavBar and add configs under a polyfills.ts" />
+    <MESSAGE value="Refactor: Replace old implementation with NavBar component&#10;&#10;- Removes the previous inline implementation.&#10;- Creates a new, reusable NavBar component.&#10;- Adds polyfills.ts to handle zone.js configuration." />
+    <MESSAGE value="chore: Bump version to 1.0.0" />
+    <MESSAGE value="feat: add new files in .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add new files in .gitignore" />
+  </component>
+</project>

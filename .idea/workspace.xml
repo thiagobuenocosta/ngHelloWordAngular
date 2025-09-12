@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet." />
+    <list default="true" id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="feat: Creates global for project margim with a base-ui component&#10;&#10;feat: Creates a reusable component item list for showing certifields&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet.">
+      <change afterPath="$PROJECT_DIR$/src/app/_components/base-ui/base-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_components/base-ui/base-ui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_components/base-ui/base-ui.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_components/item-certificado/item-certificado.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_components/item-certificado/item-certificado.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_components/item-certificado/item-certificado.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_components/primary-button/primary-button.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_components/primary-button/primary-button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,35 +69,36 @@
   <component name="ProjectId" id="32LbRwVyrr3wbdy6FhWg0nTKI6R" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.install serve.executor": "Run",
-    "npm.ng serve.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\dev.theago\\WebstormProjects\\ngHelloWordAngular\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.install serve.executor&quot;: &quot;Run&quot;,
+    &quot;npm.ng serve.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\dev.theago\\WebstormProjects\\ngHelloWordAngular\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dev.theago\WebstormProjects\ngHelloWordAngular\public\navbar" />
@@ -117,15 +129,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.start" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
@@ -163,7 +171,9 @@
       <workItem from="1757544995445" duration="924000" />
       <workItem from="1757545959316" duration="135000" />
       <workItem from="1757550687671" duration="54000" />
-      <workItem from="1757552233257" duration="6000000" />
+      <workItem from="1757552233257" duration="7031000" />
+      <workItem from="1757641464129" duration="555000" />
+      <workItem from="1757642032997" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="#UPDATE - commit inicial com os arquivos do projeto">
       <option name="closed" value="true" />
@@ -229,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757640380839</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet.">
+      <option name="closed" value="true" />
+      <created>1757640431738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757640431738</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +277,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="#UPDATE - commit inicial com os arquivos do projeto" />
     <MESSAGE value="#navBarTask - removing a trash implentation and crafting a new component appointed the NavBar and add configs under a polyfills.ts" />
     <MESSAGE value="Refactor: Replace old implementation with NavBar component&#10;&#10;- Removes the previous inline implementation.&#10;- Creates a new, reusable NavBar component.&#10;- Adds polyfills.ts to handle zone.js configuration." />

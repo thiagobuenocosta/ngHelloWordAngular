@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="feat: add new files in .gitignore">
-      <change afterPath="$PROJECT_DIR$/public/navbar/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/primary-button/primary-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/primary-button/primary-button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/primary-button/primary-button.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/secondary-button/secondary-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/secondary-button/secondary-button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/secondary-button/secondary-button.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_components/navbar/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/navbar/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_components/navbar/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/navbar/navbar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_components/navbar/navbar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
-    </list>
+    <list default="true" id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +163,7 @@
       <workItem from="1757544995445" duration="924000" />
       <workItem from="1757545959316" duration="135000" />
       <workItem from="1757550687671" duration="54000" />
-      <workItem from="1757552233257" duration="5607000" />
+      <workItem from="1757552233257" duration="6000000" />
     </task>
     <task id="LOCAL-00001" summary="#UPDATE - commit inicial com os arquivos do projeto">
       <option name="closed" value="true" />
@@ -237,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757545106417</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet.">
+      <option name="closed" value="true" />
+      <created>1757640380839</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757640380839</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +264,7 @@
     <MESSAGE value="Refactor: Replace old implementation with NavBar component&#10;&#10;- Removes the previous inline implementation.&#10;- Creates a new, reusable NavBar component.&#10;- Adds polyfills.ts to handle zone.js configuration." />
     <MESSAGE value="chore: Bump version to 1.0.0" />
     <MESSAGE value="feat: add new files in .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add new files in .gitignore" />
+    <MESSAGE value="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet." />
   </component>
 </project>

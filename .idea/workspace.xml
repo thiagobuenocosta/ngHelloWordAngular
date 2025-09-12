@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="feat: Creates global for project margim with a base-ui component&#10;&#10;feat: Creates a reusable component item list for showing certifields&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet.">
-      <change afterPath="$PROJECT_DIR$/src/app/_components/base-ui/base-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/base-ui/base-ui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/base-ui/base-ui.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/item-certificado/item-certificado.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/item-certificado/item-certificado.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/_components/item-certificado/item-certificado.ts" afterDir="false" />
+    <list default="true" id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="Feat: Add a new page to inform students when they have no certificates.">
+      <change afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_components/primary-button/primary-button.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_components/primary-button/primary-button.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
     </list>
@@ -75,30 +71,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.install serve.executor&quot;: &quot;Run&quot;,
-    &quot;npm.ng serve.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\dev.theago\\WebstormProjects\\ngHelloWordAngular\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.install serve.executor": "Run",
+    "npm.ng serve.executor": "Run",
+    "npm.start (1).executor": "Run",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\thiago.bcosta\\WebstormProjects\\ngHelloWordAngular\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dev.theago\WebstormProjects\ngHelloWordAngular\public\navbar" />
@@ -124,13 +121,13 @@
       <node-interpreter value="project" />
       <envs />
       <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
-        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:4200/" />
+        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" start="true" url="http://localhost:4200/" />
       </EXTENSION>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
@@ -141,7 +138,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
       </set>
     </attachedChunks>
   </component>
@@ -284,6 +281,7 @@
     <MESSAGE value="chore: Bump version to 1.0.0" />
     <MESSAGE value="feat: add new files in .gitignore" />
     <MESSAGE value="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet." />
+    <MESSAGE value="Feat: Add a new page to inform students when they have no certificates." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add a new page to inform students when they have no certificates." />
   </component>
 </project>

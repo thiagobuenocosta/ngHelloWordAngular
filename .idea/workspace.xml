@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a209de1d-88fe-4eac-b051-046a98095cea" name="Changes" comment="Feat: Add a new page to inform students when they have no certificates.">
-      <change afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/certificado-form/certificado-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/certificado-form/certificado-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/pages/certificado-form/certificado-form.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/certificados/certificados.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/certificados/certificados.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/pages/certificados/certificados.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pages/certificados/certificados.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,10 +94,9 @@
     "npm.build.executor": "Run",
     "npm.install serve.executor": "Run",
     "npm.ng serve.executor": "Run",
-    "npm.start (1).executor": "Run",
-    "npm.start.executor": "Run",
+    "npm.start.executor": "Debug",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\thiago.bcosta\\WebstormProjects\\ngHelloWordAngular\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\dev.theago\\WebstormProjects\\ngHelloWordAngular\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -121,7 +125,7 @@
       <node-interpreter value="project" />
       <envs />
       <EXTENSION ID="com.intellij.lang.javascript.buildTools.npm.rc.StartBrowserRunConfigurationExtension">
-        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" start="true" url="http://localhost:4200/" />
+        <browser name="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:4200/" />
       </EXTENSION>
       <method v="2" />
     </configuration>
@@ -138,7 +142,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
       </set>
     </attachedChunks>
   </component>
@@ -281,7 +285,6 @@
     <MESSAGE value="chore: Bump version to 1.0.0" />
     <MESSAGE value="feat: add new files in .gitignore" />
     <MESSAGE value="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet." />
-    <MESSAGE value="Feat: Add a new page to inform students when they have no certificates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add a new page to inform students when they have no certificates." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add navbar enhancements and new button components&#10;&#10;- Enhances the main navbar with a new structure and updated styles.&#10;- Creates reusable Primary and Secondary button components, each with its own dedicated stylesheet." />
   </component>
 </project>
